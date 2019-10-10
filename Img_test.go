@@ -12,6 +12,6 @@ func TestImgBase64ToImg(t *testing.T) {
 }
 
 func TestImgToBase64(t *testing.T) {
-	e, s := ImgToBase64("static/1.png")
-	fmt.Println(e, s)
+	e, s2 := ImgToBase64("static/right-tag.jpg")
+	fmt.Println(e, s2)
 }
